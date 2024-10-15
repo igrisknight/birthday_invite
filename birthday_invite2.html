@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Invitation</title>
+    <style>
+        /* General reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #f9f7f6, #dfe4e8);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            color: #333;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 40px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            max-width: 600px;
+            margin: 20px;
+        }
+
+        .header-container{
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .profile-image{
+            border-radius: 50%;
+            width: 130px;
+            height: 130px;
+            object-fit: cover;
+            margin-right: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #ff6f61;
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        .invite-btn {
+            background-color: #ff6f61;
+            color: #fff;
+            border: none;
+            padding: 20px 25px;
+            font-size: 1rem;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .invite-btn:hover {
+            background-color: #ff5a4d;
+        }
+
+        .invite-btn:focus {
+            outline: none;
+        }
+
+        /* Responsive design */
+        @media (max-width: 600px) {
+            .container {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .profile-image{
+                margin: 0 0 10px 0;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+</div>
+
+<div class="container">
+        <div class="header-container">
+            <img src="profile.png" alt="nupur&kapish" class="profile-image">
+            <h1>You're Invited!</h1>
+
+        </div>
+    
+        <p>
+            Celebrate a double birthday bash as we, Me (<strong>Nupur</strong>) and my better half (<strong>Kapish</strong>),
+            mark another year of joy and love together! Join us for a memorable evening filled with good vibes,
+            delicious food, and cherished moments.
+        </p>
+        <button class="invite-btn" onclick="window.location.href='https://www.airbnb.co.in/login?redirect_url=%2Ftrips%2Fv1%2Fcotraveler_invitation%2F5f8975ed-9cda-4d9f-aba8-483087a77aba'">Get Venue Details</button>
+    </div>
+
+</body>
+</html>
